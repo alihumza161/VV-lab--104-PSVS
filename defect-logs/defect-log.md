@@ -1,6 +1,6 @@
 # Requirements Defect Log — PSVS
 
-> This is an initial inspection log. Review the classifications with your instructor/classmate and update the status and findings based on the actual peer review. Some findings are risks or missing definitions rather than proven logical contradictions.
+
 
 | Defect ID | Req ID | Category | Description | Evidence | Severity | Suggested fix | Status |
 |---|---|---|---|---|---|---|---|
