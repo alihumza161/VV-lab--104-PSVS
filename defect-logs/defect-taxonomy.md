@@ -1,6 +1,7 @@
 # Defect Taxonomy — PSVS
 
-
+## Purpose
+This taxonomy supports consistent inspection of informal requirements S1-S12.
 
 | ID | Category | Definition | Example from PSVS |
 |---|---|---|---|
@@ -13,4 +14,22 @@
 | T07 | Infeasibility | A requirement may be impractical or impossible under stated conditions and assumptions. | S7's “never” guarantee does not specify treatment of sensor failure, power loss, or equipment malfunction. |
 | T08 | Untraceability | A requirement or action lacks a defined link to related artifacts or evidence. | S9 does not require a traceable link from a viability flag to the sample and regeneration action. |
 
+## Inspection Method
+Inspect each requirement for clarity, completeness, consistency, feasibility, measurability, and traceability. Inspect related requirements together, particularly S4/S5, S6/S7, S7/S8, and S9/S12.
 
+## Classification Rules
+1. Give each distinct finding a unique defect ID.
+2. Record all affected requirement IDs.
+3. Include exact wording as evidence.
+4. Use cross-requirement IDs when the issue depends on more than one requirement.
+5. Avoid counting the same underlying issue more than once unless the corrective actions are genuinely independent.
+6. Treat severity as a preliminary risk judgment and justify it.
+
+## Severity Scale
+
+| Severity | Definition |
+|---|---|
+| Critical | Could undermine ownership controls, emergency authorization, or a fundamental seed-preservation constraint. |
+| High | Could cause significant operational, compliance, or seed-preservation failure. |
+| Medium | Creates material uncertainty that must be resolved for implementation or verification. |
+| Low | Limited impact, such as avoidable overlap or documentation inefficiency. |

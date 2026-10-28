@@ -1,5 +1,6 @@
 # Requirements Defect Log — PSVS
 
+> This is an initial inspection log. Review the classifications with your instructor/classmate and update the status and findings based on the actual peer review. Some findings are risks or missing definitions rather than proven logical contradictions.
 
 | Defect ID | Req ID | Category | Description | Evidence | Severity | Suggested fix | Status |
 |---|---|---|---|---|---|---|---|
@@ -32,3 +33,7 @@
 | D15 | S9 / S12 | Missing explicit traceability between regeneration flags and audit records. |
 | D18 | S10 / S12 | Missing explicit audit linkage for quota enforcement. |
 
+## Notes
+- The log contains 18 candidate findings; validate distinctness and classification during peer review.
+- D04 and D07 are not necessarily unavoidable contradictions: the requirements may be reconciled by defining exceptions and precedence.
+- Severity is preliminary and should be justified against system risk.
