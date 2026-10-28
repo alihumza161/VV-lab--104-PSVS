@@ -4,9 +4,9 @@
 
 | Field | Details |
 |---|---|
-| Author | [Your name] |
-| Reviewer | [Classmate's name] |
-| Review date | [YYYY-MM-DD] |
+| Author | [Ali hamza] |
+| Reviewer | [Asad Ashraf] |
+| Review date | [10/28/2026] |
 | Requirements inspected | S1-S12 |
 | Author log | `defect-logs/defect-log.md` |
 
